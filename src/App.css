@@ -1,0 +1,91 @@
+/* GENERAL */
+
+header {
+  height: 150px;
+  width: 100%;
+}
+
+header > img {
+  height: 150px;
+  background-color: white;
+  margin-right: 275px;
+}
+
+.floor-pic {
+  position: absolute;
+  bottom: 0;
+  right: 50px;
+  height: 300px;
+  margin-right: 0;
+}
+
+.App {
+  text-align: center;
+  padding-top: 20px;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+.center-div {
+  display: inline-block;
+  margin-top: -20px;
+}
+
+/* APP - FILTER MENUS */
+
+.graph-menu > input {
+  display: none;
+}
+
+.graph-menu {
+  color: #aeaeae;
+}
+
+label:hover {
+  background-color: #f8f8f8;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  cursor: pointer;
+}
+
+.graph-menu > input[type="radio"]:checked+label{ 
+  background-color: #f8f8f8;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  transform: translateY(0); 
+  color: #0fa0e1;
+}
+
+/* BUTTONS */
+
+.filter-buttons {
+  display: block;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.graph-buttons {
+  display: block;
+}
+
+.graph-buttons > label {
+  padding: 10px;
+  transition: 300ms ease-in;
+  margin: 10px;
+  font-size: 45px;
+}
+
+.filter-buttons > label {
+  padding: 5px;
+  transition: 300ms ease-in;
+  font-size: 25px;
+  margin: 5px;
+}
+
+.student-buttons > label {
+  padding: 5px;
+  border-radius: 4px;
+  transition: 300ms ease-in;
+  font-size: 20px;
+  margin: 5px; 
+}
