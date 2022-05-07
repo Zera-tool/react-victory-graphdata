@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# Graphs App
 
-Demo app: ReactJS & VictoryJS
+ReactJS & VictoryJS
 
 ##
 
