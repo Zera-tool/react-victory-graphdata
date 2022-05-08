@@ -11,14 +11,6 @@ header > img {
   margin-right: 275px;
 }
 
-.floor-pic {
-  position: absolute;
-  bottom: 0;
-  right: 50px;
-  height: 300px;
-  margin-right: 0;
-}
-
 .App {
   text-align: center;
   padding-top: 20px;

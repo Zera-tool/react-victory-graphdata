@@ -20,7 +20,7 @@ export const DisplayChart = ({currentData, graphType, choice}) => {
         if(currentData && currentData[0].name){
             return currentData[0].name;
         } else {
-            return "Xaviers Class Average"
+            return "Class Average"
         }
     }
 
